@@ -32,15 +32,15 @@ Grid::Grid() {
 
 
    // grid[24][20] = ALIVE;
-    grid[5][3] = ALIVE;
+    grid[2][2] = ALIVE;
     grid[3][3] = ALIVE;
-    grid[2][4] = ALIVE;
-    grid[2][5] = ALIVE;
+    grid[3][6] = ALIVE;
+    grid[4][4] = ALIVE;
     grid[2][6] = ALIVE;
-    grid[2][7] = ALIVE;
-    grid[3][7] = ALIVE;
-    grid[4][7] = ALIVE;
-    grid[5][6] = ALIVE;
+    //grid[4][8] = ALIVE;
+    //grid[4][9] = ALIVE;
+    //grid[4][7] = ALIVE;
+    //grid[5][6] = ALIVE;
 
 }
 
