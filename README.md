@@ -1,3 +1,5 @@
+<br>*** This is now obselete branch. It has been merged with master branch. ***</br>
+
 # Game_of_life 1.1 Beta <This is unstable incomplete work in progress branch.>
 
 
