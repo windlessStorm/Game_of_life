@@ -1,6 +1,7 @@
 #include<stdio.h>
 #include<windows.h>
 #include<conio.h>
+#include "life.h"
 
 #define ALIVE true
 #define DEAD false
@@ -10,17 +11,6 @@ const int GRIDSIZE = 50;
 
 using namespace std;
 
-class Grid {
-    bool grid[GRIDSIZE][GRIDSIZE], stable;
-    int generation;
-    public:
-        Grid();
-        void printFrame();
-        void nextFrame();
-        void play();
-        bool isExtinct();
-        bool isStable();
-};
 
 Grid::Grid() {
     for( int i=0; i < GRIDSIZE; i++)
